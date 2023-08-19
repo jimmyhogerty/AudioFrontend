@@ -1,0 +1,26 @@
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+}
+.Home {
+  display: flex;
+  margin: auto;
+  max-width: 1160px;
+  padding-top: 90px;
+  gap: var(--space-xl);
+}
+
+.Coffee {
+  font-family: "PP Neue Machina";
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .Home {
+    padding-top: 0;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+}

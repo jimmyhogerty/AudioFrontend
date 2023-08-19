@@ -1,0 +1,42 @@
+.Home {
+  display: flex;
+  margin: auto;
+  max-width: 1160px;
+  padding-top: 90px;
+  gap: var(--space-xl);
+}
+
+.BlobContainer {
+  z-index: 1;
+  overflow: hidden;
+  user-select: none;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  right: 0px;
+}
+
+.Main {
+  position: relative;
+  min-height: 100vh;
+  background-color: #e0d8be;
+  background-image: url("./assets/bkg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.AppContent {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.MainMargin {
+  margin: var(--global-page-margin);
+}
+
+@media (max-width: 1024px) {
+  .MainMargin {
+    margin: 30px;
+  }
+}

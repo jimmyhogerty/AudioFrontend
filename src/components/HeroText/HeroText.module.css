@@ -1,0 +1,28 @@
+.HeroTitle {
+  color: var(--brand-primary, #32a74f);
+  /* Heading 1/Desktop */
+  font-family: "PP Neue Machina";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -2.56px;
+}
+.SupportText {
+  color: var(--brand-ink, #201f1b);
+  /* Heading 3/Desktop */
+  font-family: PP Neue Montreal;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .HeroTitle {
+    font-size: 42px;
+  }
+  .SupportText {
+    font-size: 20px;
+  }
+}
