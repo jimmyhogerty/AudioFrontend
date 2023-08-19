@@ -1,7 +1,12 @@
-import styles from "./Home.module.css";
-
 import "react-toastify/dist/ReactToastify.css";
 
+import styles from "./Home.module.css";
+
 export const Home = () => {
-  return <div className={styles.MainContainer}>Main Page</div>;
+  return (
+    <section className={styles.Home}>
+      simple section
+      <input type="file" />
+    </section>
+  );
 };

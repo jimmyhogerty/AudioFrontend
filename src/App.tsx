@@ -2,10 +2,10 @@ import styles from "./App.module.css";
 import { Outlet, RouterProvider } from "react-router";
 import { createBrowserRouter } from "react-router-dom";
 
-import Navbar from "./components/Navbar/Navbar";
 import { Home } from "./pages/Home/Home";
 import { createContext, useState } from "react";
 import { SupashipUserInfo, useSession } from "./hooks/useSession";
+import { Navbar } from "./features/Navbar";
 
 const router = createBrowserRouter([
   {

@@ -19,10 +19,7 @@
 .Main {
   position: relative;
   min-height: 100vh;
-  background-color: #e0d8be;
-  background-image: url("./assets/bkg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: whitesmoke;
 }
 
 .AppContent {
